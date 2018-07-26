@@ -145,6 +145,7 @@ The default value is `all`
 
 #### Current supported values for subset are
 
+<<<<<<< HEAD
 * default
 * bridging
 * bgp
@@ -156,6 +157,11 @@ is made by the playbook.  Normally this value does not need to be modified but
 can be used to pass a custom command map to the function.
 
 The default value is `vars/get_facts_command_map.yaml`
+=======
+* system
+* hostname
+
+>>>>>>> fdbc120... adds initial set of parser templates
 
 ## Notes
 
